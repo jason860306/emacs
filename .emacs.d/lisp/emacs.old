@@ -1,0 +1,401 @@
+(add-to-list 'load-path "/home/szj0306/.emacs.d/")
+
+;; 跳到指定行
+;; (global-set-key [?\C-\M-g] 'goto-line)
+(define-key global-map "\C-c\C-g" 'goto-line)
+
+;; 滚屏1
+(global-set-key  [(meta down)] (lambda (&optional n) (interactive "p")
+                              (scroll-up (or n 1))))
+(global-set-key  [(meta up)] (lambda (&optional n) (interactive "p")
+                              (scroll-down (or n 1))))
+;; 滚屏2
+;; scroll functions
+(defun hold-line-scroll-up()
+  "Scroll the page with the cursor in the same line"
+  (interactive)
+  ;; move the cursor also
+  (let ((tmp (current-column)))
+    (scroll-up 1)
+    (line-move-to-column tmp)
+    (forward-line 1)
+    )
+  )
+(defun hold-line-scroll-down()
+  "Scroll the page with the cursor in the same line"
+  (interactive)
+  ;; move the cursor also
+  (let ((tmp (current-column)))
+    (scroll-down 1)
+    (line-move-to-column tmp)
+    (forward-line -1)
+    )
+  )
+(global-set-key (kbd "M-n") 'hold-line-scroll-up)
+(global-set-key (kbd "M-p") 'hold-line-scroll-down)
+
+;; 设置自动启用行号模式
+(require 'linum)
+(eval-after-load 'linum
+  '(progn
+     (defface linum-leading-zero
+       `((t :inherit 'linum
+            :foreground ,(face-attribute 'linum :background nil t)))
+       "Face for displaying leading zeroes for line numbers in display margin."
+       :group 'linum)
+
+     (defun linum-format-func (line)
+       (let ((w (length
+                 (number-to-string (count-lines (point-min) (point-max))))))
+         (concat
+          (propertize (make-string (- w (length (number-to-string line))) ?0)
+                      'face 'linum-leading-zero)
+          (propertize (number-to-string line) 'face 'linum))))
+
+     (setq linum-format 'linum-format-func)))
+(global-linum-mode t)
+;; (require 'display-line-number)
+;; (global-display-line-number-mode 1)
+;; (setq display-line-number-mode-on t)
+;; (add-hook 'c-mode-hook 'display-line-number-mode)
+;; (add-hook 'cc-mode-hook 'display-line-number-mode)
+
+;;显示行列号
+(setq column-number-mode t)
+(setq line-number-mode t)
+
+;; emacs shell 乱码问题解决
+(autoload 'ansi-color-for-comint-mode-on "ansi-color" nil t)
+(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+
+;; 'y' for 'yes', 'n' for 'no'
+(fset 'yes-or-no-p 'y-or-n-p) 
+
+;; Default coding system (for new files)
+;; 默认buffer编码是utf-8,(写文件)
+(setq default-buffer-file-coding-system 'utf-8)
+
+;; syntax highlighting
+(global-font-lock-mode t)
+
+;; show white space
+;; (require 'whitespace)
+;; (global-set-key [f6] 'whitespace-mode)
+
+;; emacs 配色方案
+
+(add-to-list 'load-path "/home/szj0306/Documents/emacser/color-theme-6.6.0/")
+(require 'color-theme)
+;; (color-theme-initialize)
+;; (szj0306-emacs-theme)
+
+;; (require 'color-theme-ahei)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)
+     ;; (szj0306-emacs-theme)
+     (color-theme-hober)
+     ;; (color-theme-scintilla)
+     ;; (color-theme-simple-1)
+     ))
+
+;; ido mode
+;; (ido-mode 1)
+;; (require 'template-simple)
+
+;; cscope配置
+(add-to-list 'load-path "/home/szj0306/Documents/emacser/cscope-15.8a/contrib/xcscope/")
+(require 'xcscope)
+
+;; (require 'google-c-style)
+;; (add-hook 'c-mode-common-hook 'google-set-c-style)
+;; (add-hook 'c-mode-common-hook 'google-make-newline-indent)
+
+;;;; CC-mode配置  http://cc-mode.sourceforge.net/
+;; emacs的缩进包括CC Mode的设置
+(require 'cc-mode)
+;; (setq indent-tabs-mode nil)
+(setq indent-tabs-mode t)
+(setq c-basic-offset 4)
+(setq default-tab-width 4)
+(setq tab-width 4)
+(setq tab-stop-list ())
+(loop for x downfrom 40 to 1 do
+      (setq tab-stop-list (cons (* x 4) tab-stop-list)))
+(setq c-default-style '((java-mode . "java")
+						(awk-mode . "awk")
+						(other . "linux")))
+(c-set-offset 'inline-open 0)
+(c-set-offset 'friend '-)
+(c-set-offset 'substatement-open 0)
+
+(defun my-c-mode-hook()
+  "happy hacking."
+  (interactive)
+  (setq tab-width 4 ;; TAB键的宽度设置为4
+		c-basic-offset 4
+		indent-tabs-mode t ;; 使用TAB缩进
+		c-tab-alway-indent nil) ;; 也使用TAB的原有功能
+  (c-toggle-auto-hungry-state 1)  ;; hungry-delete and auto-newline
+  (setq c-cleanup-list (append c-cleanup-list (list 'brace-else-brace)))
+  (c-set-offset 'arglist-close 0)
+  (c-set-offset 'arglist-cont-nonempty 4)
+  (c-set-offset 'inline-open 0)
+  (c-set-offset 'case-label 0)
+  (c-set-offset 'statement-cont 4)
+  (c-toggle-auto-state -1) ;; 不用自动换行 1 - 表示自动换行
+  (c-toggle-hungry-state) ;; 此模式下，当按Backspace时会删除最多的空格
+  ;; (define-key c-mode-map [return] 'newline-and-indent) ;; 将回车代替c-j的功能，换行的同时对齐
+  (define-key c-mode-map "\C-ce" 'c-comment-edit) ;; 写注释
+  ;;按键定义
+  (define-key c-mode-base-map [(control \`)] 'hs-toggle-hiding)
+  (define-key c-mode-base-map [(f7)] 'compile)
+  (define-key c-mode-base-map [(meta \`)] 'c-indent-command)
+  ;;  (define-key c-mode-base-map [(tab)] 'hippie-expand)
+  (define-key c-mode-base-map [(tab)] 'my-indent-or-complete)
+  ;;预处理设置
+  (setq c-macro-shrink-window-flag t)
+  (setq c-macro-preprocessor "cpp")
+  (setq c-macro-cppflags " ")
+  (setq c-macro-prompt-flag t)
+  (setq hs-minor-mode t)
+  (setq abbrev-mode t)
+)
+(add-hook 'c-mode-hook 'my-c-mode-hook)
+(add-hook 'cc-mode-hook 'my-c-mode-hook)
+
+(require 'gud)
+;; (require 'gdb-ui)
+;; (load-library "multi-gdb-ui.el")
+(defun gdb-or-gud-go ()
+  "If gdb isn't running; run gdb, else call gud-go."
+  (interactive)
+  (if (and gud-comint-buffer
+		   (buffer-name gud-comint-buffer)
+		   (get-buffer-process gud-comint-buffer)
+		   (with-current-buffer gud-comint-buffer (eq gud-minor-mode 'gdba)))
+	  (gud-call (if gdb-active-process "continue" "run") "")
+	(gdb (gud-query-cmdline 'gdb))))
+(defun gud-break-remove ()
+  "Set/clear breakpoin."
+  (interactive)
+  (save-excursion
+	(if (eq (car (fringe-bitmaps-at-pos (point))) 'breakpoint)
+		(gud-remove nil)
+	  (gud-break nil))))
+(defun gud-kill ()
+  "Kill gdb process."
+  (interactive)
+  (with-current-buffer gud-comint-buffer (comint-skip-input))
+  (kill-process (get-buffer-process gud-comint-buffer)))
+;; (setq gdb-many-windows t)
+(global-set-key [f5] 'gdb-or-gud-go)
+;; (global-set-key [S-f5] '(lambda () (interactive) (gud-call "quit" nil)))
+(global-set-key [S-f5] 'gud-kill)
+(global-set-key [f7] '(lambda () (interactive) (compile compile-command)))
+(global-set-key [f8] 'gud-print)
+(global-set-key [C-f8] 'gud-pstar)
+(global-set-key [f9] 'gud-break-remove)
+;; (global-set-key [f9] 'gud-break)
+;; (global-set-key [C-f9] 'gud-remove)
+(global-set-key [f10] 'gud-next)
+(global-set-key [C-f10] 'gud-until)
+(global-set-key [S-f10] 'gud-jump)
+(global-set-key [f11] 'gud-step)
+(global-set-key [C-f11] 'gud-finish)
+
+;; ;; yasnippet配置
+;; (add-to-list 'load-path "/home/szj0306/Documents/emacser/yasnippet")
+;; (require 'yasnippet)
+;; (yas-global-mode 1)
+
+;; template.el配置
+(add-to-list 'load-path "/home/szj0306/.emacs.d/template/")
+(require 'mylib)
+(require 'template)
+;; 必须这么指定 搜索目录
+(setq template-subdirectories '("home/szj0306/.emacs.d/template/templates"))
+(setq template-auto-insert t)
+(template-initialize)
+(add-to-list 'template-find-file-commands
+			 'ido-exit-minibuffer)
+
+;; ================================================================================
+;; 添加Emacs搜索路径
+(add-to-list 'load-path "/home/szj0306/Documents/emacser/cedet-1.1")
+(add-to-list 'load-path "/home/szj0306/Documents/emacser/cedet-1.1/cogre")
+(add-to-list 'load-path "/home/szj0306/Documents/emacser/cedet-1.1/common")
+(add-to-list 'load-path "/home/szj0306/Documents/emacser/cedet-1.1/contrib")
+(add-to-list 'load-path "/home/szj0306/Documents/emacser/cedet-1.1/ede")
+(add-to-list 'load-path "/home/szj0306/Documents/emacser/cedet-1.1/eieio")
+(add-to-list 'load-path "/home/szj0306/Documents/emacser/cedet-1.1/semantic")
+(add-to-list 'load-path "/home/szj0306/Documents/emacser/cedet-1.1/speedbar")
+(add-to-list 'load-path "/home/szj0306/Documents/emacser/cedet-1.1/srecode")
+
+(require 'cedet)
+(require 'eieio-opt)
+
+;; If you plan to use EDE projects, then you need to switch on corresponding
+;; mode — it's implemented by EDE package:
+(global-ede-mode t)
+
+(semantic-load-enable-excessive-code-helpers)
+
+;; To use additional features for names completion, and displaying of information
+;; for tags & classes, you also need to load the semantic-ia package. This could be
+;; done with following command:
+(require 'semantic-ia)
+
+;; If you're using GCC for programming in C & C++, then Semantic can automatically
+;; find path, where system include files are stored. To do this, you need to load
+;; semantic-gcc package with following command:
+(require 'semantic-gcc)
+
+;; You can also explicitly specify additional paths for look up of include files
+;; (and these paths also could be different for specific modes). To add some path
+;; to list of system include paths, you can use the semantic-add-system-include
+;; command, that accepts two parameters — string with path to include files, and
+;; symbol, representing name of major mode, for which this path will used.
+;; For example, to add Boost header files for C++ mode, you need to add following code:
+
+;; (defconst cedet-user-include-dirs
+;;   (list "/home/szj0306/Documents/boost_1_51_0"
+;; 	"/home/szj0306/Documents/projects/p2p_server/branches/taishan/server/framecommon/include"
+;; 	"/home/szj0306/Documents/projects/p2p_server/branches/taishan/server/srvframe"))
+;; (setq cedet-sys-include-dirs (list ""))
+;; (let ((include-dirs cedet-user-include-dirs))
+;;   (setq include-dirs (append include-dirs cedet-sys-include-dirs))
+;;   (mapc (lambda (dir)
+;;           (semantic-add-system-include dir 'c++-mode)
+;;           (semantic-add-system-include dir 'c-mode))
+;;         include-dirs))
+;; (setq semantic-c-dependency-system-include-path "/usr/include/")
+
+(semantic-add-system-include "/home/szj0306/Documents/boost_1_51_0" 'c++-mode)
+(semantic-add-system-include "/opt/Documents/p2p_server/branches/taishan/server/framecommon/include" 'c++-mode)
+(semantic-add-system-include "/opt/Documents/p2p_server/branches/taishan/server/srvframe" 'c++-mode)
+
+;; To optimize work with tags, you can use several techniques:
+;; * limit search by using an EDE project, as described below;
+;; * explicitly specify a list of root directories for your projects,
+;; so Semantic will use limited number of databases with syntactic information;
+;; * explicitly generate tags databases for often used directories
+;; (/usr/include, /usr/local/include, etc.) using commands
+;; semanticdb-create-ebrowse-database or semanticdb-create-cscope-database;
+;; * limit search by customization of the semanticdb-find-default-throttle
+;; variable for concrete modes — for example, don't use information from
+;; system include files, by removing system symbol from list of objects to search for c-mode:
+(setq-mode-local c-mode semanticdb-find-default-throttle
+				 '(project unloaded system recursive))
+
+;; If you're using standard procedure for loading of CEDET, then Semanticdb will
+;; be loaded automatically. Otherwise, you can load and enable it with following commands:
+(require 'semanticdb)
+(global-semanticdb-minor-mode 1)
+
+;; Besides this, Semanticdb can use databases generated by external utilities — gtags from
+;; GNU Global, ctags, ebrowse & cscope. To activate this you can use following code
+;; (please, note that these commands will fail if you have no utilities installed,
+;; or have an incorrect versions of them — that's why they a wrapped into when):
+;; if you want to enable support for gnu global
+(when (cedet-gnu-global-version-check t)
+  (require 'semanticdb-global)
+  (semanticdb-enable-gnu-global-databases 'c-mode)
+  (semanticdb-enable-gnu-global-databases 'c++-mode))
+
+;; enable ctags for some languages:
+;;  Unix Shell, Perl, Pascal, Tcl, Fortran, Asm
+;; (when (cedet-ectag-version-check)
+;;   (semantic-load-enable-primary-exuberent-ctags-support))
+
+;; Many libraries store all macro definitions in one or more include files, so you can use
+;; these definitions as-is. To do this you need to list these files in the
+;; semantic-lex-c-preprocessor-symbol-file variable, and when CEDET will perform analysis,
+;; then values from these files will be used. By default, this variable has only one
+;; value — file with definitions for C++ standard library, but you can add more data there.
+;; As example, I want to show CEDET's configuration for work with Qt4:
+;;;; C-mode-hooks .
+(defun yyc/c-mode-keys ()
+  "description"
+  ;; Semantic functions.
+  (semantic-default-c-setup)
+  ;; (local-set-key "\C-c?" 'semantic-ia-complete-symbol-menu)
+  (local-set-key "\C-cb" 'semantic-mrub-switch-tags)
+  (local-set-key "\C-cR" 'semantic-symref)
+  (local-set-key "\C-cj" 'semantic-ia-fast-jump)
+  (local-set-key "\C-cp" 'semantic-ia-show-summary)
+  (local-set-key "\C-cl" 'semantic-ia-show-doc)
+  (local-set-key "\C-cr" 'semantic-symref-symbol)
+  (local-set-key "\C-c/" 'semantic-ia-complete-symbol)
+  (local-set-key [(control return)] 'semantic-ia-complete-symbol)
+  (local-set-key "." 'semantic-complete-self-insert)
+  (local-set-key ">" 'semantic-complete-self-insert)
+  ;; Indent or complete
+  (local-set-key  [(tab)] 'indent-or-complete)
+  )
+(add-hook 'c-mode-common-hook 'yyc/c-mode-keys)
+(add-hook 'c++-mode-common-hook 'yyc/c-mode-keys)
+
+;; Enable code helpers.
+(semantic-load-enable-code-helpers)
+(global-semantic-mru-bookmark-mode 1)
+
+(defvar mru-tag-stack '()
+  "Tag stack, when jumping to new tag, current tag will be stored here,
+and when jumping back, it will be removed.")
+
+(defun yc/store-mru-tag (pt)
+  "Store tag info into mru-tag-stack"
+  (interactive "d")
+  (let* ((tag (semantic-mrub-find-nearby-tag pt)))
+    (if tag
+        (let ((sbm (semantic-bookmark (semantic-tag-name tag)
+                                      :tag tag)))
+          (semantic-mrub-update sbm pt 'mark)
+          (add-to-list 'mru-tag-stack sbm)
+          )
+      (error "No tag to go!")))
+  )
+
+(defun yc/goto-func (pt)
+  "Store current postion and call (semantic-ia-fast-jump)"
+  (interactive "d")
+  (yc/store-mru-tag pt)
+  (semantic-ia-fast-jump pt)
+)
+
+(defun yc/goto-func-any (pt)
+  "Store current postion and call (semantic-ia-fast-jump)"
+  (interactive "d")
+  (yc/store-mru-tag pt)
+  (semantic-complete-jump)
+  )
+
+(defun yc/symref (pt)
+  (interactive "d")
+  (yc/store-mru-tag pt)
+  (semantic-symref))
+
+(defun yc/return-func()
+  "Return to previous tag."
+  (interactive)
+  (if (car mru-tag-stack)
+      (semantic-mrub-switch-tags (pop mru-tag-stack))
+    (error "TagStack is empty!")))
+
+(defun setup-program-keybindings()
+  ;;;; Common program-keybindings
+  (interactive)
+  (local-set-key "\C-cR" 'yc/symref)
+  (local-set-key "\C-cb" 'semantic-mrub-switch-tags)
+  (local-set-key "\C-c\C-j" 'yc/goto-func-any)
+  (local-set-key "\C-cj" 'yc/goto-func)
+  (local-set-key [S-f12] 'yc/return-func)
+  (local-set-key [M-S-f12] 'yc/return-func)
+  (local-set-key (kbd "C-x SPC") 'yc/store-mru-tag)
+  )
+
+;;;; Semantic DataBase存储位置
+(setq semanticdb-default-save-directory
+      (expand-file-name "~/.emacs.d/semanticdb"))
+(put 'upcase-region 'disabled nil)

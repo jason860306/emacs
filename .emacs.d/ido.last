@@ -1,0 +1,327 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/cdn/livefileupsrv/" . "test/")
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/cdn/" . "livefileupsrv/")
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/src/" . "command/")
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/" . "src/")
+ ("/home/szj0306/Documents/mycode/work/" . "deploycfg/")
+ ("/home/szj0306/Documents/mycode/" . "work/")
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/" . "livetracker/")
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/" . "cdn/")
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/" . "server/")
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/" . "httpproxy/")
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/" . "cdn/")
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/" . "server/")
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/" . "nasa/")
+ ("/home/szj0306/Documents/project/bfp2p/" . "p2psrv/")
+ ("/home/szj0306/Documents/project/" . "bfp2p/")
+ ("/home/szj0306/Documents/" . "project/")
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/src/" . "common/")
+ ("/opt/Documents/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/src/" . "command/")
+ ("/opt/Documents/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/" . "conf/")
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/" . "conf/")
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/" . "thread/")
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/" . "src/")
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/" . "httpproxy/")
+ ("/home/szj0306/" . ".emacs.d/")
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/" . "common/")
+ ("/home/szj0306/.emacs.d/" . "lisp/")
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/statsrv/src/" . "common/")
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/" . "thread/")
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/" . "PreDeploy/")
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/" . "CdnCtlMgrCenter/")
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/" . "cdn/")
+ ("d:/project/bfp2p/p2p_server/branches/taishan/" . "server/")
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/" . "src/")
+ ("c:/Program Files (x86)/" . "Vim/")
+ ("c:/" . "Program Files (x86)/")
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/src/" . "command/")
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/seed/" . "livetracker/")
+ ("d:/Kuaipan/devtools/emacser/.emacs.d/lisp/" . "Ropemacs/")
+ ("d:/Kuaipan/devtools/emacser/.emacs.d/" . "lisp/")
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/cdn/" . "livefileupsrv/")
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/" . "cdn/")
+ ("d:/project/bfp2p/p2p_server/branches/nasa/" . "server/")
+ ("d:/project/bfp2p/p2p_server/branches/" . "nasa/")
+ ("d:/project/bfp2p/p2p_server/" . "branches/")
+ ("d:/project/bfp2p/" . "p2p_server/")
+ ("d:/project/" . "bfp2p/")
+ ("d:/" . "project/")
+ ("d:/Kuaipan/devtools/emacser/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/szj0306/.emacs.d/lisp/"
+ "/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/cdn/livefileupsrv/test/"
+ "/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/conf/"
+ "/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/"
+ "/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/src/command/"
+ "/home/szj0306/Documents/mycode/work/deploycfg/"
+ "/home/szj0306/Documents/mycode/crawler/"
+ "/home/szj0306/Documents/project/create_ap/"
+ "/usr/share/conkyforecast/"
+ "/home/szj0306/"
+ "/usr/lib/vmware/modules/source/vmblock-only/linux/"
+ "/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/"
+ "/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/src/common/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/common/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/conf/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/conf/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/thread/"
+ "/opt/Documents/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/src/command/"
+ "/opt/Documents/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/src/common/"
+ "/opt/Documents/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/conf/"
+ "/opt/Documents/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/test/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/command/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/common/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/newvod/MediaAssetSystem/tools/GenBhdUrl/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/test/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/command/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/task/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/thread/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/logs/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/main/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/task/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/command/src/command/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/main/"
+ "/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/"
+ "d:/project/bfp2p/p2p_server/branches/nasa/server/cdn/livefileupsrv/"
+ "c:/Users/志杰/"
+ "d:/Kuaipan/devtools/emacser/"
+ "d:/Kuaipan/devtools/emacser/.emacs.d/"
+ "d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CdnCtlMgrCenter/"
+ "d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/statsrv/src/common/"
+ "d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/statsrv/src/command/"
+ "d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/statsrv/"
+ "d:/Kuaipan/devtools/emacser/.emacs.d/lisp/"
+ "d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/common/"
+ "d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/"
+ "d:/project/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "cedet-prj.el"
+ "thttpcli.cpp"
+ "fetch12306.sh"
+ "stat_check.sh"
+ "ip.txt"
+ "ipinfo.sh"
+ "filesystem.c"
+ "dentry.c"
+ "emacs-setup.el"
+ "eim-setup.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/szj0306/.emacs.d/lisp/" (22499 38024 224023 752000) "compile-setup.el" "sourcepair.el" "vimgdb.err" "template/" "multi-gdb-ui.el" "psvn.el.diff" "etags-setup.el" "template-setup.el" "color-theme-setup.el" "line-scroll-setup.el" "ede-projects.el" "cl-lib.el" "dired-lis.el" "emacs.old" "color/" "multi-gud.el" "company/" "cedet-prj.el" "shell-setup.el" "etags-update/" "eim-setup.el" "file-template.el" "bookmarks" "eim/" "emacs-setup.el" "pysmell/" "buflist-setup.el" "devcomm.el" "cedet-prj.el~" "cscope-setup.el~" "linum.el" "ecb-setup.el" "whitespace.elc" "sourcepair-setup.el" "cscope-setup.el" "whitespace.el" "auto-complete-setup.el" "ido.last" "source-path.el~" "whitespace-setup.el" "emacs-eim/" "debug-gdb/" "Ropemacs/" "psvn.el" "color-theme-6.6.0/" "google-c-style.el" "linum-setup.el" "ido-setup.el" "auto-insert-settings.el" "yasnippet/" "yasnippet-setup.el" "snippets/" "places" "cedet-setup.el" "color-theme-ahei.el" "source-path.el" "util.el.gz" "ac-comphist.dat" "emacs-setup.el~" "popup-el/" "cc-mode-setup.el" "./" "display-line-number.el" "cscope-15.8a/" "util.el" "szj0306-emacs-theme.el" "eim-setup.el~" "../" "color-theme-setup.el~" "gud-setup.el" "cedet-1.1/" "gud-setup.el~" "auto-complete/" "ecb-2.40/")
+
+ ("/home/szj0306/.emacs.d/" (22499 42295 833966 523000) "ede-projects.el" "eshell/" "ido.last~" "auto-save-list/" "ido.last" "semanticdb/" "tags/" "places" "ac-comphist.dat" "./" "../" "lisp/")
+
+ ("/home/szj0306/" (22500 58650 502869 387000) ".gitconfig" ".chewing/" ".vimperator/" ".gnome2/" ".thumbnails/" ".bash_profile" ".python-eggs/" "Fiddler2/" ".vim/" ".ddd/" ".conkyForecastWU.config~" ".bash_profile~" "charswap.py" "123.xml" ".conkyrc~" ".xfce4-session.verbose-log" "chn_font.reg" ".atom/" ".vimrc~" "Documents/" ".rediscli_history" ".dia/" ".xscreensaver" ".gnupg/" ".electron/" ".mozilla/" "Music/" ".kingsoft/" ".cache/" ".mysql_history" ".covers/" ".emacs" ".winrc" ".purple/" ".mysql/" ".gnome/" "Pictures/" ".lyrics/" ".toprc" ".subversion/" ".rnd" ".viminfo" ".zenmap/" ".bash_logout" ".bluefish/" ".pki/" "Software/" ".PyCharm2016.2/" ".xfce4-session.verbose-log.last" ".gstreamer-0.10/" ".freemind/" ".conky/" ".xprofile~" ".wine/" ".xinitrc~" ".eclipse/" ".smartgit/" ".xinitrc" ".xchat2/" ".gimp-2.8/" ".vimrc" ".fltk/" ".quodlibet/" ".Xauthority" ".sunpinyin/" ".macromedia/" ".putty/" ".config/" ".xprofile" "vrfcodec.py" ".local/" ".kde4/" ".tooling/" ".vscode/" ".mplayer/" ".swt/" ".m2/" ".shutter/" ".vmware/" ".conkyrc" ".xchm" ".gnome2_private/" ".conkyForecast.config" "Desktop/" "qstpcodec.py" ".java/" ".thunderbird/" ".vandyke/" ".bashrc~" ".lesshst" ".winrc~" ".python_history" ".icons/" ".dosemu/" ".calc_history" ".conkyForecastWU.config" ".gftp/" ".dbus/" ".fonts/" ".gimmagerc" ".bashrc" ".mtpaint" ".npm/" "./" ".emacs.d/" ".ssh/" ".remarkable/" ".hostapd/" ".irssi/" ".tmux.conf" ".bash_history" ".designer/" ".mono/" ".smartsvn/" ".wget-hsts" "../" ".dosbox/" ".codeintel/" "Downloads/" ".conkyForecast.config~" ".ICEauthority" ".qemu-launcher/" ".node-gyp/" ".adobe/")
+
+ ("/home/szj0306/Documents/project/fengxiu/fengxiu/" (22499 38775 0 0) "server-business/" "./" "server-framework/" "../")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/cdn/livefileupsrv/test/" (22444 22452 975634 55000) "trange.h" "trange_queue.cpp" "thttpcli.config" "tlivefileupsrv.cpp" "thttpsndrecvtask.cpp" "test.sh" "tcurl.sh" "tgmtime.c" "conf/" "makefile" "tontimerthd.cpp" "thttpclidef.h" "trange_queue.h" "thttpcli.cpp" "thttpcli.creator" "tliveclassfactory.cpp" "trange.cpp" "logs/" "tontimerthd.h" "thttpcli.files" "tliveclassfactory.h" "tlivefileupsrv.h" "build.sh" "thttpsndrecvthd.cpp" "./" "thttpcli.includes" "thttpsndrecvthd.h" "../" "thttpsndrecvtask.h")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/cdn/livefileupsrv/" (22444 22454 192300 670000) "db/" "src/" "stat/" "env.sh" "test/" "conf/" "start.sh" "install/" "logs/" "tools/" "build.sh" "./" "include/" "../" "obj/")
+
+ ("/home/szj0306/Documents/mycode/crawler/" (22469 18996 600357 903000) "fetch_station.sh" "README.md" "fetch12306.sh~" ".git/" "fetch12306.sh" "./" "../")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/cdn/" (22444 22483 678966 78000) "livemaster/" "LiveCdnSrv.r14275/" "livefilemgr/" "LiveCacheSrv/" "newlivequeryvp/" "crtmpserver/" "livebitmapsrc/" "crtmpserver_old/" "livemedia.r13863/" "CdnCtlMgrCenter/" "livefileupsrv/" "./" "rtmptransfer/" "livefilestream/" "../" "livemedia/" "LiveRecord/" "LiveCdnSrv/" "liverecordmgr/" "MeifConnSrv/")
+
+ ("/home/szj0306/Documents/mycode/work/deploycfg/" (22499 41532 173976 754000) "deploycfg" "deploycfg.cpp~" "deploycfg.cpp" "getcdnsrvinfocmd.h" "deploycfg.conf" ".vscode/" "getcdnsrvinfocmd.cpp" "./" "../")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/conf/" (22470 44218 988844 167000) "httpproxy.conf" "favicon.ico" "base.conf" "./" "../" "crossdomain.xml")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/src/command/" (22470 44219 518844 167000) "statreportcmd.cpp" "protocmd.h" "servicestatreportcmd.h" "protocmdhead.h" "getcdnsrvinfocmd.h" "makefile" "statreportcmd.h" "getcdnsrvinfocmd.cpp" "cdnctlbasecmd.h" "./" "../")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/src/" (22473 8209 418790 972000) "common/" "makeobj" "command/" "thread/" "task/" "makefile" "makefile.comm" "main/" "./" "../")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/" (22499 20736 704255 363000) "src/" "httpproxy" "stat/" "env.sh" "httpproxy.files" "test/" "conf/" "start.sh" "httpproxy.creator" "httpproxy.config" ".vscode/" "install/" "logs/" "tools/" "build.sh" "./" "include/" "httpproxy.includes" "../" "httpproxy.creator.user" "obj/")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/" (22470 44240 78844 160000) "VodMaster/" "httpproxy/" "clientdownloadvip/" "SourceMaster/" "vodpublishsrv/" "redis/" "cdnmaster/" "mastersrvex/" "nginx/" "cdncache/" "predeploy/" "statsrv/" "newcdncache/" "CDNServer/" "VodSlave/" "CdnLogSrv/" "newsts/" "CdnCtlMgrCenter/" "./" "../" "mastersrv/" "queryvp/" "MeifConnSrv/")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/" (22470 44218 318844 167000) "framecommon/" "cdn/" "logsystem/" "newvod/" "srvframe/" "utils/" "startall.sh" "seed/" "./" "../")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/" (22470 44240 398844 160000) "server/" "public/" ".svn/" "doc/" "./" "../")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/" (22470 44366 968844 118000) "nasa/" "taishan/" "vega/" "./" "../")
+
+ ("/home/szj0306/Documents/project/bfp2p/" (22481 15255 58614 979000) "p2pcli/" "online_train/" "p2pdoc/" "p2psrv/" "matrix1.8/" "./" "../")
+
+ ("/home/szj0306/Documents/project/" (22499 31279 764114 112000) "himawaripy/" "dkms-workstation/" "python/" "multimedia/" "create_ap/" "bfp2p/" ".vscode/" ".git/" "qtcreator/" "http/" "ACE_wrappers/" "./" "../")
+
+ ("/home/szj0306/Documents/mycode/work/" (22499 35473 204057 930000) "deploycfg/" "./" "bflivecli/" "../")
+
+ ("/home/szj0306/Documents/mycode/" (22477 4831 28705 262000) "crawler/" "conkyforecast/" "pymp4/" "fetch12306.sh~" "./" ".metadata/" "../" "work/")
+
+ ("/home/szj0306/Documents/" (22494 19034 354688 945000) "mycode/" "project/" "./" "Tencent Files/" "../")
+
+ ("/home/szj0306/Documents/project/create_ap/" (22461 13567 865880 550000) "LICENSE" "README.md" "Makefile" "create_ap" ".git/" "howto/" "create_ap.conf" "./" "create_ap.service" "../" "bash_completion")
+
+ ("/usr/share/conkyforecast/" (22462 42463 0 0) "example/" "conkyForecast.py" "conkyForecast.config" "README" "test/" "locale/" "conkyForecastWU.config" "./" "images/" "conkyForecastWU.py" "../" "conkyForecast-SunsetSunriseCountdown.py")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/src/common/" (22453 25521 305865 60000) "myclassfactory.cpp" "channelpeertable.h" "CmdCounter.cpp" "channelmgr.cpp" "peermanagertable.cpp" "channel.cpp" "iparealist.cpp" "peerinfo.h" "channelmgr.h" "peermanager.h" "myclassfactory.h" "rwlockhelper.h" "util.cpp" "util.h" "iparealist.h" "playposmgr.h" "makefile" "channel.h" "peerinfohashtable.h" "threadmsgbody.h" "trackerconf.h" "peerinfohashtable.cpp" "CmdCounter.h" "channelattrdef.h" "queryaddrtaskarg.h" "trackerconf.cpp" "peermanagertable.h" "peermanager.cpp" "channelpeertable.cpp" "./" "areainfo.cpp" "trackerdef.h" "playposmgr.cpp" "areainfo.h" "../" "fastcounter.h")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/" (22453 25526 75864 996000) "livetracker.creator.user" "db/" "src/" "livetracker.creator" "env.sh" "cscope.files" "livetracker.files" "cscope.out" "test/" "conf/" "start.sh" "livetracker.includes" "install/" "logs/" "livetracker.config" "build.sh" "./" "include/" "../" "livetracker" "obj/")
+
+ ("/usr/lib/vmware/modules/source/vmblock-only/" (22453 27377 605840 190000) "COPYING" "cscope.files" "Makefile.kernel" "cscope.out" "README" "Makefile" "shared/" "linux/" "./" "../")
+
+ ("/usr/lib/vmware/modules/source/vmblock-only/linux/" (22288 11357 0 0) "filesystem.c" "os.h" "filesystem.h" "vmblock.h" "vmblock_version.h" "inode.c" "vmblockInt.h" "module.c" "dentry.c" "control.c" "block.c" "block.h" "super.c" "./" "file.c" "stubs.c" "../")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/" (22444 22447 878967 604000) "livetrkproxy/" "livetrackermgr/" "./" "../" "livetracker/")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/" (22444 22482 912299 442000) "framecommon/" "cdn/" "thirdparty/" "webflashtool/" "web/" "srvframe/" "utils/" "seed/" "tools/" "./" "../")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/" (22444 22466 508966 810000) "server/" "public/" ".svn/" "./" "../")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/framecommon/include/framecommon/" (22444 23173 638936 600000) "localdomainparser.h" "udpcommonsock.h" "commondef.h" "SyncWrapper.h" "mymd5.h" "MysqlWrapper.h" "iparea.h" "safe_thread_list.h" "urlencrypt.h" "encryption_algorithm.h" "domainparse.h" "myexception.h" "snappage.h" "bencoding.h" "toolkit.h" "cmysql.h" "AES.h" "hashfile.h" "encryption_algorithm_3.h" "atomicvar.h" "CommonDef2.h" "deelx.h" "RSA.h" "mylist.h" "mysocket.h" "mod_h264_streaming.h" "decompress.h" "CommonFun.h" "encryption_algorithm_1.h" "writeRunInfo.h" "Config.h" "httptools.h" "mhxy_udp.h" "httpsocket.h" "atomic32.h" "threadrwlock.h" "SyncObjectBase.h" "buffermgr.h" "myfile.h" "sendmailclient.h" "PipeInterrupter.h" "AsyncQueue.h" "BufferHelper.h" "encryption_algorithm_2.h" "csha1.h" "./" "AESEncryptApplication.h" "pidlist.h" "../" "moov.h" "framecommon.h" "threadmutex.h" "myhashtable.h")
+
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/src/" (22444 22448 908967 564000) "common/" "makeobj" "command/" "thread/" "task/" "makefile" "makefile.comm" "main/" "./" "../")
+
+ ("/home/szj0306/Software/devtool/emacser/" (22444 27670 228744 492000) ".history" "News/" ".emacs" "emacs.el" ".newsrc-dribble" "excercise.el" "./" ".emacs.d/" ".bash_history" "../")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/common/" (22403 23725 24824 864000) "stathashtable.tcc~" "myclassfactory.cpp" "makefile" "CacheStatusMgr.cpp" "../" "statinfo.h" "myclassfactory.h" "./" "servicestat.cpp" "peercntcounter.h" "statinfo.tcc" "CacheStatusMgr.h" "fastcounter.h" "mystatcounter.cpp" "AsynGetMediaDataQueue.h" "VPeerServerConf.cpp~" "rwlockhelper.h" "peercntcounter.cpp" "servicestat.h" "VPeerServerConf.cpp" "servicestat.h~" "mystatcounter.h" ".svn/" "VPeerServerConf.h" "VPeerDef.h")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/conf/" (22444 19158 239115 861000) "../" "./" "base.conf" "VPeer.conf" "VPeer.conf~" ".svn/")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/" (22444 19108 31945 629000) "cdnserver" "PreDeploy/" "src/" "build.sh" "conf/" "start.sh" "var.log" "callgrind.out.28937" "vedios/" "logs/" "../" "cscope.out" "stat/" "./" "CDNServer.creator.user" "env.sh" "test/" "perf.data.old" "tool/" "obj/" "perf.data" "cscope.files" "CDNServer.creator.user.Pf8643" ".svn/" "install/" "include/")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/" (22442 55975 771132 646000) "task/" "command/" "makefile" "makeobj" "../" "cscope.out" "./" "makefile.comm" "common/" "cscope.files" "thread/" "non-thread-safe.log" ".svn/" "main/")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/conf/" (22444 17869 487643 348000) "httpproxy.conf" "base.conf.bak" "httpproxy.conf.bak" "httpproxy.conf~" "../" "./" "base.conf" "crossdomain.xml" ".svn/" "favicon.ico")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/" (22444 17995 710077 511000) "src/" "build.sh" "TAGS" "conf/" "start.sh" "var.log" "httpproxy" ".log.log" "logs/" "../" "cscope.out" "stat/" "./" "crash/" "httpproxy.creator.user" "tools/" "env.sh" "test/" "obj/" "cscope.files" ".svn/" "install/" "include/")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/" (22442 55773 310447 758000) "task/" "command/" "makefile" "makeobj" "../" "cscope.out" "./" "makefile.comm" "common/" "cscope.files" "thread/" "makefile.comm~" ".svn/" "main/")
+
+ ("/usr/src/debug/glibc-2.12-2-gc4ccff1/sysdeps/unix/" (22427 18401 110334 200000) "syscall-template.S.bak" "common/" "mkfifoat.c" "../" "nice.c" "syscall-template.S.bak1" "getlogin_r.c" "./" "telldir.c" "seekdir.c" "get_child_max.c" "readdir.c" "readdir_r.c" "clock_settime.c" "sysv/" "dirstream.h" "x86_64/" "mkfifo.c" "fdopendir.c" "dirfd.c" "bsd/" "sockatmark.c" "rewinddir.c" "grantpt.c" "syscall-template.S" "stime.c" "closedir.c" "clock_gettime.c" "getlogin.c" "opendir.c")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/src/command/" (22359 45612 624092 900000) "peerquerycmd.h" "peerpingcmd.cpp" "peerpingcmd.h" "makefile" "peerlogincmd.h" "peerlogincmd.cpp" "../" "peerlogoutcmd.h" "pingtrackermgrcmd.h" "./" "pingtrackermgrcmd.cpp" "basecmd.h" "trackerbasecmd.h" "peerquerycmd.cpp" "querychanneladdrcmd.h" "queryplayposcmd.cpp" "peerquerycmd.cpp~" "querychanneladdrcmd.cpp" "peerlogoutcmd.cpp" "reporttrackermgrcmd.cpp" ".svn/" "reporttrackermgrcmd.h" "queryplayposcmd.h")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/" (22431 1234 51759 555000) "tags" "db/" "src/" "build.sh" "conf/" "start.sh" "start.sh~" "var.log" "logs/" "../" "cscope.out" "./" "env.sh" "test/" "obj/" "livetracker" "cscope.files" ".svn/" "install/" "include/")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/src/common/" (22431 1211 559706 799000) "areainfo.h" "threadmsgbody.h" "areainfo.cpp" "peermanager.cpp" "iparealist.h" "trackerconf.h" "myclassfactory.cpp" "makefile" "util.h" "queryaddrtaskarg.h" "channel.h" "CmdCounter.h" "../" "channelpeertable.h" "myclassfactory.h" "peermanagertable.cpp" "channelmgr.h" "./" "peerinfo.h~" "channelmgr.cpp" "fastcounter.h" "channelattrdef.h" "playposmgr.cpp" "rwlockhelper.h" "CmdCounter.cpp" "peerinfohashtable.cpp" "iparealist.cpp" "channelpeertable.cpp" "playposmgr.h" "peermanagertable.h" "peerinfo.h" "trackerconf.cpp" ".svn/" "peerinfohashtable.h" "channel.cpp" "util.cpp" "peermanager.h" "trackerdef.h")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/src/" (22348 9708 37805 132000) "task/" "command/" "makefile" "makeobj" "../" "./" "makefile.comm" "common/" "thread/" ".svn/" "main/")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/conf/" (22430 50716 580027 770000) "../" "./" "base.conf" "base.conf~" "trackersrv.conf~" ".svn/" "trackersrv.conf")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/test/" (22425 42860 21457 134000) "tags" "build.sh" "getdata.cpp" "40BD5AEA33F2F31F0A817BEA4131EDFF8BF3D6D8" "makefile" "getdata" "mybasecmd.h" "../" "test.log" "./" "getdata.cpp~" "getdata.sh" "getcross" "getdata.sh~" ".svn/" "getcross.cpp")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/thread/" (22423 16825 264721 215000) "makefile" "servicereportthread.cpp" "../" "./" "ontimethread.h" "ontimethread.cpp" "servicereportthread.h" "myrecvandsendthread.h" ".svn/" "myrecvandsendthread.cpp")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/common/" (22423 16654 319230 725000) "serverconf.cpp" "myhttptaskprocess.cpp" "cachestatusmgr.cpp" "myautomicvar.h~" "serverdef.h" "myclassfactory.cpp" "makefile" "cachestatusmgr.h" "../" "statinfo.h" "serverconf.h" "myclassfactory.h" "./" "servicestat.cpp" "statinfo.tcc" "myhttptaskprocess.h" "fastcounter.h" "mystatcounter.cpp" "rwlockhelper.h" "asyngetmediadataqueue.h" "servicestat.h" "myatomicvar.h" "getdatamsgbody.h" "mystatcounter.h" ".svn/")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/command/" (22398 12682 783486 458000) "makefile" "cdnctlbasecmd.h" "getcdnsrvinfocmd.cpp" "../" "./" "statreportcmd.h" "servicestatreportcmd.h" "statreportcmd.h~" "protocmd.h" "getcdnsrvinfocmd.h" ".svn/" "statreportcmd.cpp" "protocmdhead.h")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/newvod/MediaAssetSystem/tools/GenBhdUrl/" (22413 65402 461252 759000) "mod_h264_streaming.o" "GenBhdUrl.config" "md5.o" "utility.o" "GenBhdUrl.creator" "utility.cpp" "md5.cpp" "range.o" "mkv_utility.cpp" "sha1.cpp" "define.h" "mkv_utility.h" "makefile~" "myfile.cpp" "makefile" "mod_h264_streaming.h" "main.cpp" "parsefile.cpp.edited" "mod_h264_streaming.cpp" "sha1.o" "../" "parsefile.h" "moov.cpp" "./" "GenBhdUrl.files" "parsefile.o" "command.h" "rmff_utility.h" "sha1.h" "rmff_utility.o" "myfile.o" "range.cpp" "#parsefile.cpp#" "md5.h" "myfile.h" "mkv_utility.o" "range.h" "GenBhd" "moov.h" "myexception.h" "main.o" "GenBhdUrl.includes" "rmff_utility.cpp" "moov.o" ".svn/" "utility.h" "GenBhdUrl.creator.user" "parsefile.cpp")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/test/" (22422 51049 258187 909000) "CdnHandshake2.cpp~" "testHandshake.sh" "CdnHandshake.cpp" "nohup.out" "testStatDownload" "build.sh" "CdnHandshake2" "gcidsrvid.cpp" "makefile~" "makefile" "testCdnCtlMgr.cpp~" "testCdnCtlMgr.cpp" "../" "gcidsrvid" "testCdnCtlMgr" "1896FE8167725B0534F6164B5281B31E0D81A530.move" "test.log" "./" "0034AE2949D85AB9E321C8A0B973F50DC8DE182A.move" "DownloadFromSource.sh" "test.error" "CdnHandshake2.cpp" "testStatDownload.cpp" "s.sh~" "makefile.one" "CdnHandshake" "EB2B839FC3BC3E03CBC2F31DF3EDE523DE6EDA83.move" "s.sh" "TcpCommonTestClient.h" "testHandshake.sh~" "7501204C74CB12C4D0B8BEF5306D225BFAB88129.move" "F57C5DC2621AA163EE4465C27F5382DB1C0E3D00.move" "CdnHandshake2.sh" ".svn/" "44C11E6DCE6A5C6D78865A3FEE6463A7A6FFF356.vrf" "003CB999455101819DC9C8DCB54E42991920E095.move")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/" (22399 22371 158150 764000) "CdnLogSrv/" "newsts/" "newcdncache/" "VodSlave/" "queryvp/" "mastersrv/" "cdncache/" "httpproxy/" "MeifConnSrv/" "nginx/" "../" "./" "VodMaster/" "CdnCtlMgrCenter/" "SourceMaster/" "clientdownloadvip/" "CDNServer/" "statsrv/" "mastersrvex/" "httpcli/" "redis/" "vodpublishsrv/" "predeploy/" ".svn/" "httpproxy.debug/")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/logs/" (22395 27515 638165 261000) "VPeer.trace_04" "VPeer.runinfo" "VPeer.vpeer_02" "VPeer.vpeer_07" "VPeer.log_08" "VPeer.vpeer_09" "VPeer.trace_05" "VPeer.log_02" "VPeer.runinfo_01" "VPeer.vpeer_00" "VPeer.trace_01" "VPeer.error" "VPeer.vpeer_04" "VPeer.log_09" "../" "VPeer.trace_08" "./" "VPeer.trace_03" "VPeer.trace_02" "VPeer.trace" "VPeer.log_01" "VPeer.vpeer" "VPeer.vpeer_01" "VPeer.log_07" "VPeer.vpeer_08" "VPeer.log_00" "VPeer.runinfo_02" "VPeer.trace_00" "VPeer.log" "VPeer.vpeer_05" "VPeer.runinfo_04" "VPeer.error_01" "VPeer.trace_06" "VPeer.trace_07" "VPeer.vpeer_06" "VPeer.log_06" "VPeer.vpeer_03" "VPeer.log_03" ".svn/" "VPeer.trace_09" "VPeer.log_05" "VPeer.log_04" "VPeer.runinfo_03")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/thread/" (22395 36608 957868 252000) "VPeerShortConnectedProcessThread.cpp" "makefile" "servicereportthread.cpp" "VPeerShortConnectedProcessThread.h" "OnTimeThread.h" "../" "./" "servicereportthread.h" ".svn/" "OnTimeThread.cpp" "OnTimeThread.cpp~")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/command/" (22395 23040 3448 296000) "FinCmd.h" "InterestCmd.cpp" "HandShakeCmd.h" "makefile" "CdnBaseCmd.h" "servicestatcmd.h" "cdnctlbasecmd.h" "FinCmd.cpp" "getcdnsrvinfocmd.cpp" "CdnStatBaseCmd.h" "CancelCmd.h" "../" "InterestCmd.h" "./" ".directory" "servicestatreportcmd.h" "HandShakeCmd.cpp" "RequestCmd.h" "StatReportCmd.h" "getcdnsrvinfocmd.h" "StatReportCmd.cpp" ".svn/" "RequestCmd.cpp" "CancelCmd.cpp")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/task/" (22395 24277 915113 136000) "mylongconnsendandrecvtask.h" "httpprocesstask.cpp" "httpprocesstask.h" "makefile" "../" "servicereporttask.h" "./" "mylongconnsendandrecvtask.cpp" ".svn/" "servicereporttask.cpp")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/main/" (22395 26733 154456 164000) "httpproxy.h" "makefile" "main.cpp" "../" "./" ".svn/" "httpproxy.cpp")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/command/src/" (22394 18026 926856 312000) "command/" "../" "./")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/httpproxy/src/command/src/command/" (22394 18312 482461 199000) "../" "./" "protocmd.h" "protocmd.h~" "protocmdhead.h")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/task/" (22393 55180 269023 729000) "makefile" "../" "servicereporttask.h" "./" "myrecvandsendtask.cpp~" "myrecvandsendtask.h" "servicereporttask.cpp~" "myrecvandsendtask.cpp" ".svn/" "servicereporttask.cpp" "MyLongConnSendAndRecvTask.h" "MyLongConnSendAndRecvTask.cpp")
+
+ ("/opt/Documents/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/main/" (22390 20237 549846 14000) "statinfo.cpp~" "makefile" "../" "./" "Main.cpp" "VPeer.h" "VPeer.cpp" ".svn/")
+
+ ("/opt/Documents/emacser/" (22389 57078 254804 373000) ".emacs" ".history" ".bash_history" "excercise.el" ".newsrc-dribble" "../" "./" "News/" ".emacs.d/" "emacs.el")
+
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/cdn/" (22359 47455 0 0) "rtmptransfer/" "newlivequeryvp/" "MeifConnSrv/" "liverecordmgr/" "LiveRecord/" "livemedia.r13863/" "livemedia/" "livemaster/" "livefileupsrv/" "livefilestream/" "livefilemgr/" "LiveCdnSrv.r14275/" "LiveCdnSrv/" "LiveCacheSrv/" "livebitmapsrc/" "crtmpserver/" "CdnCtlMgrCenter/" "../" "./")
+
+ ("c:/Users/志杰/" (22376 40122 0 0) "「开始」菜单/" "_viminfo" "workspace/" "wc/" "Videos/" "Tracing/" "Templates/" "SkyDrive/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PUTTY.RND" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{589e7499-d1cc-11e5-97be-d4dadce0a4f2}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{589e7499-d1cc-11e5-97be-d4dadce0a4f2}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{589e7499-d1cc-11e5-97be-d4dadce0a4f2}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Intel/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "CMB/" "Application Data/" "AppData/" "Adobe Flash Builder 4.6/" ".VirtualBox/" ".ssh/" ".smplayer/" ".PyCharm50/" ".PyCharm2016.1/" ".p2/" ".oracle_jre_usage/" ".gradle/" ".gitconfig" ".eclipse/" ".docker/" ".designer/" ".config/" ".bash_history" ".AndroidStudio1.2/" ".android/" "../" "./")
+
+ ("d:/Kuaipan/devtools/emacser/.emacs.d/lisp/" (22375 20998 0 0) "yasnippet-setup.el" "yasnippet/" "whitespace.elc" "whitespace.el" "whitespace-setup.el" "vimgdb.err" "util.el.gz" "util.el" "template-setup.el" "template/" "szj0306-emacs-theme.el" "sourcepair.el" "sourcepair-setup.el" "source-path.el" "snippets/" "shell-setup.el" "Ropemacs/" "pysmell/" "psvn.el.diff" "psvn.el" "popup-el/" "places" "my_emacs/" "multi-gud.el" "multi-gdb-ui.el" "linum.el" "linum-setup.el" "line-scroll-setup.el" "ido.last" "ido-setup.el" "gud-setup.el" "google-c-style.el" "file-template.el" "etags-update/" "etags-setup.el" "emacs.old" "emacs-setup.el" "emacs-configs/" "emacs/" "ede-projects.el" "ecb-setup.el" "ecb-2.40/" "display-line-number.el" "dired-lis.el" "devcomm.el" "debug-gdb/" "dea-read-only/" "cscope-setup.el" "cscope-15.8a/" "compile-setup.el" "company/" "color-theme-setup.el" "color-theme-ahei.el" "color-theme-6.6.0/" "color/" "cl-lib.el" "cedet-setup.el" "cedet-prj.el" "cedet-1.1/" "cc-mode-setup.el" "buflist-setup.el" "bookmarks" "auto-insert-settings.el" "auto-complete-setup.el" "auto-complete/" "ac-comphist.dat" "../" "./")
+
+ ("d:/Kuaipan/devtools/emacser/.emacs.d/" (22375 20991 0 0) "tags/" "semanticdb/" "places" "lisp/" "ido.last" "eshell/" "ede-projects.el" "auto-save-list/" "ac-comphist.dat" "../" "./")
+
+ ("d:/Kuaipan/devtools/emacser/" (22375 20978 0 0) "News/" "excercise.el" "emacs.el" ".newsrc-dribble" ".history" ".emacs.d/" ".emacs" ".bash_history" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CdnCtlMgrCenter/" (21897 14789 0 0) "tools/" "test/" "start.sh" "src/" "obj/" "logs/" "install/" "include/" "env.sh" "db/" "conf/" "build.sh" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/statsrv/src/common/" (22358 36782 0 0) "statsrvdef.h" "statsrvconf.h" "statsrvconf.cpp" "statisticsstrategy.h" "statisticsstrategy.cpp" "myclassfactory.h" "myclassfactory.cpp" "makefile" "filehashtable.h" "filehashtable.cpp" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/statsrv/src/" (21897 14783 0 0) "thread/" "task/" "makeobj" "makefile.comm" "makefile" "main/" "common/" "command/" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/statsrv/src/command/" (21897 14783 0 0) "syncmd.h" "syncmd.cpp" "mybasecmd.h" "makefile" "incsyncmd.h" "incsyncmd.cpp" "hotchangecmd.h" "hotchangecmd.cpp" "cdnsrvcmd.h" "cdnsrvcmd.cpp" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/" (22359 46108 0 0) "VodSlave/" "vodpublishsrv/" "VodMaster/" "statsrv/" "SourceMaster/" "redis/" "queryvp/" "predeploy/" "nginx/" "newsts/" "newcdncache/" "MeifConnSrv/" "mastersrvex/" "mastersrv/" "httpproxy/" "clientdownloadvip/" "CDNServer/" "CdnLogSrv/" "CdnCtlMgrCenter/" "cdncache/" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/" (22359 46094 0 0) "vega/" "taishan/" "supporttools/" "nasa/" "matrix/" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/statsrv/" (21897 14783 0 0) "test/" "start.sh" "src/" "obj/" "logs/" "install/" "include/" "env.sh" "db/" "conf/" "build.sh" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/" (22357 23612 0 0) "test/" "start.sh" "src/" "obj/" "logs/" "livetracker.includes" "livetracker.files" "livetracker.creator.user" "livetracker.creator" "livetracker.config" "install/" "include/" "env.sh" "db/" "cscope.out" "cscope.files" "conf/" "build.sh" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/seed/" (21897 14764 0 0) "sncenter/" "prsrv/" "pqsrv/" "pmgrsrv/" "pingserver/" "pconsrv/" "natserver/" "natcheck/" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/srvframe/src/" (21897 14767 0 0) "thread/" "task/" "stat/" "net/" "makeobj" "makefile.comm" "makefile" "main/" "common/" "command/" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/srvframe/src/task/" (22357 14360 0 0) "task.h" "task.cpp" "sockettask.h" "sockettask.cpp" "sendtask.h" "sendtask.cpp" "sendandrecvtask.h" "sendandrecvtask.cpp" "recvtask.h" "recvtask.cpp" "recvandsendtask.h" "recvandsendtask.cpp" "makefile" "maintaintask.h" "maintaintask.cpp" "longconnsendandrecvtask.h" "longconnsendandrecvtask.cpp" "longconnrecvandsendtask.h" "longconnrecvandsendtask.cpp" "longconnlistentask.h" "longconnlistentask.cpp" "LongConnectedListenTask.h" "LongConnectedListenTask.cpp" "listentask.h" "listentask.cpp" "httptask.h" "httpsendandrecvtask.h" "httpsendandrecvtask.cpp" "HttpRecvAndSendTask.h" "CommonTask.h" "CommonTask.cpp" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/task/" (22342 49829 0 0) "servicereporttask.h" "servicereporttask.cpp" "myrecvandsendtask.h" "myrecvandsendtask.cpp" "MyLongConnSendAndRecvTask.h" "MyLongConnSendAndRecvTask.cpp" "makefile" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/" (22351 41822 0 0) "vedios/" "tool/" "test/" "stat/" "start.sh" "src/" "PreDeploy/" "obj/" "logs/" "install/" "include/" "env.sh" "cscope.out" "cscope.files" "conf/" "CDNServer.WK3" "CDNServer.SearchResults" "CDNServer.PS" "CDNServer.PRI" "CDNServer.PR" "CDNServer.PO" "CDNServer.PFI" "CDNServer.includes" "CDNServer.IMD" "CDNServer.IMB" "CDNServer.IAD" "CDNServer.IAB" "CDNServer.files" "CDNServer.creator.user" "CDNServer.creator" "CDNServer.config" "build.sh" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/" (22350 36562 0 0) "trunk/" "branches/" ".svn/" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/main/" (22157 2292 0 0) "VPeer.h" "VPeer.cpp" "makefile" "Main.cpp" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/" (22342 49829 0 0) "thread/" "task/" "makeobj" "makefile.comm" "makefile" "main/" "common/" "command/" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/thread/" (22226 46790 0 0) "VPeerShortConnectedProcessThread.h" "VPeerShortConnectedProcessThread.cpp" "servicereportthread.h" "servicereportthread.cpp" "OnTimeThread.h" "OnTimeThread.cpp" "makefile" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/common/" (22342 49829 0 0) "VPeerServerConf.h" "VPeerServerConf.cpp" "VPeerDef.h" "servicestat.h" "servicestat.cpp" "rwlockhelper.h" "peercntcounter.h" "peercntcounter.cpp" "mystatcounter.h" "mystatcounter.cpp" "myclassfactory.h" "myclassfactory.cpp" "makefile" "fastcounter.h" "DownloadStatHashTable.h" "DownloadStatHashTable.cpp" "CacheStatusMgr.h" "CacheStatusMgr.cpp" "AsynGetMediaDataQueue.h" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/cdn/livefileupsrv/src/" (22342 45615 0 0) "thread/" "task/" "msvs/" "makeobj" "makefile.comm" "makefile" "main/" "common/" "command/" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/cdn/livefileupsrv/" (22350 35252 0 0) "tools/" "test/" "tags" "stat/" "start.sh" "src/" "obj/" "logs/" "livefileupsrv.includes" "livefileupsrv.files" "livefileupsrv.creator.user.b64886a" "livefileupsrv.creator.user.3.2-pre1" "livefileupsrv.creator.user" "livefileupsrv.creator" "livefileupsrv.config" "install/" "include/" "env.sh" "db/" "cscope.out" "cscope.files" "conf/" "build.sh" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/cdn/livefileupsrv/src/common/" (22350 35079 0 0) "utility.h" "utility.cpp" "utf8code.h" "utf8code.cpp" "uriparser.txt" "uriparser.h" "uriparser.cpp" "upmsgbody.h" "upinfomgr.h" "upinfomgr.cpp" "upinfo.h" "upfileiommap.h" "upfileiommap.cpp" "srctaskinfo.h" "reportmsgbody.h" "range_queue.h" "range_queue.cpp" "range.h" "range.cpp" "QtAV_Compat.h" "mediaparser.h" "mediaparser.cpp" "makefile" "livefileupsrvdef.h" "livefileupsrvconf.h" "livefileupsrvconf.cpp" "liveclassfactory.h" "liveclassfactory.cpp" "httprecvsndtaskproc.h" "httprecvsndtaskproc.cpp" "httpmsgbody.h" "db.h" "db.cpp" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/PreDeploy/" (21897 14777 0 0) "TcpCommonTestClient.h" "predeploy.cpp" "predeploy" "makefile" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/tags/" (21897 14855 0 0) "microlight_01/" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/cdn/CDNServer/src/command/" (22157 2292 0 0) "StatReportCmd.h" "StatReportCmd.cpp" "servicestatreportcmd.h" "servicestatcmd.h" "RequestCmd.h" "RequestCmd.cpp" "makefile" "InterestCmd.h" "InterestCmd.cpp" "HandShakeCmd.h" "HandShakeCmd.cpp" "getcdnsrvinfocmd.h" "getcdnsrvinfocmd.cpp" "FinCmd.h" "FinCmd.cpp" "CdnStatBaseCmd.h" "cdnctlbasecmd.h" "CdnBaseCmd.h" "CancelCmd.h" "CancelCmd.cpp" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/server/" (22144 44050 0 0) "startall.sh" "srvframe/" "seed/" "newvod/" "logsystem/" "framecommon/" "cdn/" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/taishan/" (21897 14789 0 0) "server/" "public/" "doc/" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/src/command/" (22349 31160 0 0) "trackerbasecmd.h" "reporttrackermgrcmd.h" "reporttrackermgrcmd.cpp" "queryplayposcmd.h" "queryplayposcmd.cpp" "querychanneladdrcmd.h" "querychanneladdrcmd.cpp" "pingtrackermgrcmd.h" "pingtrackermgrcmd.cpp" "peerquerycmd.h" "peerquerycmd.cpp" "peerpingcmd.h" "peerpingcmd.cpp" "peerlogoutcmd.h" "peerlogoutcmd.cpp" "peerlogincmd.h" "peerlogincmd.cpp" "makefile" "cscope.out" "basecmd.h" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/src/common/" (22349 26442 0 0) "util.h" "util.cpp" "trackerdef.h" "trackerconf.h" "trackerconf.cpp" "threadmsgbody.h" "rwlockhelper.h" "queryaddrtaskarg.h" "playposmgr.h" "playposmgr.cpp" "peermanagertable.h" "peermanagertable.cpp" "peermanager.h" "peermanager.cpp" "peerinfohashtable.h" "peerinfohashtable.cpp" "peerinfo.h" "myclassfactory.h" "myclassfactory.cpp" "makefile" "iparealist.h" "iparealist.cpp" "fastcounter.h" "CmdCounter.h" "CmdCounter.cpp" "channelpeertable.h" "channelpeertable.cpp" "channelmgr.h" "channelmgr.cpp" "channelattrdef.h" "channel.h" "channel.cpp" "areainfo.h" "areainfo.cpp" "../" "./")
+
+ ("d:/project/bfp2p/p2p_server/branches/nasa/server/seed/livetracker/src/" (22348 5224 0 0) "thread/" "task/" "tags" "makeobj" "makefile.comm" "makefile" "main/" "common/" "command/" "../" "./")
+
+ ("c:/Program Files (x86)/Vim/" (22347 55188 0 0) "_vimrc~" "_vimrc" "vimfiles/" "vim74/" "../" "./")
+
+ ("c:/WINDOWS/" (22344 3010 0 0) "zh-CN/" "write.exe" "WMSysPr9.prx" "WinSxS/" "winhlp32.exe" "WindowsUpdate.log" "WindowsShell.Manifest" "win.ini" "Web/" "Vss/" "vpnplugins/" "vimtutor.bat" "vimdiff.bat" "vim.bat" "view.bat" "twain_32.dll" "twain_32/" "TWAINSP_Integrated_Camera.src" "TWAINSP_Integrated_Camera.ini" "tracing/" "ToastData/" "Temp/" "Tasks/" "TAPI/" "SysWOW64/" "SystemResources/" "SystemApps/" "system32pncrt.dll" "System32/" "system.ini" "System/" "Synaptics.PD.log" "Synaptics.log" "symbols/" "srvany.exe" "splwow64.exe" "Speech_OneCore/" "Speech/" "SoftwareDistribution/" "SKB/" "ShellNew/" "Setup/" "servicing/" "ServiceProfiles/" "security/" "schemas/" "SchCache/" "RtlExUpd.dll" "Resources/" "rescache/" "RemotePackages/" "Registration/" "regedit.exe" "pyw.exe" "py.exe" "PurchaseDialog/" "pss/" "Provisioning/" "Professional.xml" "PrintDialog/" "Prefetch/" "PolicyDefinitions/" "PLA/" "PFRO.log" "Performance/" "PCHEALTH/" "Panther/" "Offline Web Pages/" "OCR/" "notepad.exe" "msvcr100.dll" "msvcp100.dll" "ModemLogs/" "MiracastView/" "Minidump/" "Migration/" "Microsoft.NET/" "mib.bin" "MediaViewer/" "Media/" "lsasetup.log" "Logs/" "LOG/" "LkmdfCoInst.log" "LiveKernelReports/" "LDPINST.LOG" "L2Schemas/" "kmsonboot/" "Installer/" "InputMethod/" "InfusedApps/" "INF/" "ImmersiveControlPanel/" "IME/" "hh.exe" "HelpPane.exe" "Help/" "gvimdiff.bat" "gvim.bat" "gview.bat" "Globalization/" "Fonts/" "explorer.exe" "evim.bat" "es.exe" "Enterprise.xml" "en-US/" "ELAMBKUP/" "DtcInstall.log" "DPINST.LOG" "Downloaded Program Files/" "DigitalLocker/" "diagwrn.xml" "diagnostics/" "diagerr.xml" "DevicesFlow/" "DesktopTileResources/" "debug/" "Cursors/" "CSC/" "Core.xml" "comsetup.log" "CbsTemp/" "Branding/" "bootstat2.dat" "bootstat.dat" "Boot/" "BitLockerDiscoveryVolumeContents/" "bfsvc.exe" "bcastdvr/" "assembly/" "AppReadiness/" "AppPatch/" "appcompat/" "ampa.ini" "ampa.exe" "amlog/" "ADFS/" "addins/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,61 @@
+;;; -*- coding: utf-8 -*-
+(("/home/szj0306/.emacs.d/ido.last" . 43335)
+ ("/usr/share/emacs/24.5/lisp/emacs-lisp/cl.el.gz" . 576)
+ ("/home/szj0306/Documents/project/fengxiu/fengxiu/"
+  (dired-filename . "/home/szj0306/Documents/project/fengxiu/fengxiu/server-business"))
+ ("/home/szj0306/.emacs.d/lisp/cedet-prj.el" . 4281)
+ ("/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed/limits.h" . 2835)
+ ("/usr/include/uuid/uuid.h" . 1605)
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/src/command/getcdnsrvinfocmd.h" . 2691)
+ ("/home/szj0306/Documents/mycode/work/deploycfg/"
+  (dired-filename . "/home/szj0306/Documents/mycode/work/deploycfg/getcdnsrvinfocmd.h"))
+ ("/home/szj0306/Documents/mycode/work/deploycfg/getcdnsrvinfocmd.h" . 703)
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/src/command/"
+  (dired-filename . "/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/src/command/protocmd.h"))
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/src/command/protocmd.h" . 761)
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/"
+  (dired-filename . "/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/conf"))
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/conf/"
+  (dired-filename . "/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/conf/httpproxy.conf"))
+ ("/usr/local/include/framecommon/cmysql.h" . 192)
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/cdn/livefileupsrv/test/thttpcli.cpp" . 11183)
+ ("/home/szj0306/Documents/mycode/work/deploycfg/deploycfg.cpp" . 602)
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/framecommon/include/framecommon/atomicvar.h" . 638)
+ ("/home/szj0306/Documents/project/create_ap/"
+  (dired-filename . "/home/szj0306/Documents/project/create_ap/.."))
+ ("/home/szj0306/Documents/project/"
+  (dired-filename . "/home/szj0306/Documents/project/.."))
+ ("/home/szj0306/Documents/"
+  (dired-filename . "/home/szj0306/Documents/mycode"))
+ ("/home/szj0306/Documents/mycode/"
+  (dired-filename . "/home/szj0306/Documents/mycode/crawler"))
+ ("/home/szj0306/Documents/mycode/crawler/" . 486)
+ ("/home/szj0306/Documents/mycode/crawler/fetch12306.sh" . 1894)
+ ("/usr/share/conkyforecast/"
+  (dired-filename . "/usr/share/conkyforecast/conkyForecast.py"))
+ ("/usr/share/conkyforecast/conkyForecast.py" . 8046)
+ ("/usr/lib/vmware/modules/source/vmblock-only/linux/filesystem.c" . 1057)
+ ("/usr/lib/vmware/modules/source/vmblock-only/linux/inode.c" . 5868)
+ ("/usr/lib/vmware/modules/source/vmblock-only/linux/dentry.c" . 2001)
+ ("/usr/include/linux/fs.h" . 20)
+ ("/home/szj0306/.emacs.d/lisp/emacs-setup.el" . 2164)
+ ("/home/szj0306/.emacs.d/lisp/eim-setup.el" . 1741)
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/src/"
+  (dired-filename . "/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/src/makefile.comm"))
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/taishan/server/cdn/httpproxy/src/makefile.comm" . 496)
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/"
+  (dired-filename . "/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/src"))
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/src/common/playposmgr.cpp" . 4970)
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/src/"
+  (dired-filename . "/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/src/common"))
+ ("/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/src/common/"
+  (dired-filename . "/home/szj0306/Documents/project/bfp2p/p2psrv/nasa/server/seed/livetracker/src/common/channelmgr.cpp"))
+ ("/home/szj0306/.emacs.d/lisp/cscope-setup.el" . 1944)
+ ("/home/szj0306/.emacs.d/lisp/source-path.el" . 1343)
+ ("/usr/include/features.h" . 788)
+ ("/usr/include/stdlib.h" . 25266)
+ ("/home/szj0306/.emacs.d/lisp/color-theme-setup.el" . 1458)
+ ("/usr/include/signal.h" . 873)
+ ("/usr/include/stdint.h" . 1294)
+ ("/home/szj0306/.emacs.d/lisp/"
+  (dired-filename . "/home/szj0306/.emacs.d/lisp/cedet-prj.el")))

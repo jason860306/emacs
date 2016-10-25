@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("a"
+ (filename . "~/.emacs.d/cedet-setup.el")
+ (front-context-string . "\n;; F2 在当前行设置或取消")
+ (rear-context-string . "-x r b, c-x r l)")
+ (position . 8675))
+("cedet-setup.el"
+ (filename . "~/.emacs.d/cedet-setup.el")
+ (front-context-string . "\n;; F2 在当前行设置或取消")
+ (rear-context-string . "-x r b, c-x r l)")
+ (position . 8675))
+)

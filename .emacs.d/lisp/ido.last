@@ -1,0 +1,32 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("d:/Kuaipan/devtools/emacser/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "d:/Kuaipan/devtools/emacser/.emacs.d/"
+ "d:/Kuaipan/devtools/emacser/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "cedet-prj.el"
+ "cedet-setup.el"
+ "emacs-setup.el"
+ ".emacs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("d:/Kuaipan/devtools/emacser/.emacs.d/" (22342 54893 0 0) "yasnippet-setup.el" "yasnippet/" "whitespace.elc" "whitespace.el" "whitespace-setup.el" "vimgdb.err" "util.el.gz" "util.el" "template-setup.el" "template/" "tags/" "szj0306-emacs-theme.el" "sourcepair.el" "sourcepair-setup.el" "sourcepair-path.el" "snippets/" "semanticdb/" "Ropemacs/" "pysmell/" "psvn.el" "popup-el/" "places" "my_emacs/" "myemacs" "multi-gud.el" "multi-gdb-ui.el" "linum.el" "linum-setup.el" "line-scroll-setup.el" "ido.last~" "ido.last" "ido-setup.el" "gud-setup.el" "google-c-style.el" "file-template.el" "etags-update/" "etags-setup.el" "emacs.old" "emacs-setup.el~" "emacs-setup.el" "emacs-configs/" "emacs/" "ede-projects.el" "ecb-setup.el" "ecb-2.40/" "display-line-number.el" "dired-lis.el" "devcomm.el" "debug-gdb/" "dea-read-only/" "cscope-setup.el" "cscope-15.8a/" "compile-setup.el" "company/" "color-theme-setup.el" "color-theme-ahei.el" "color-theme-6.6.0/" "color/" "cl-lib.el" "cedet.el" "cedet-setup.el~" "cedet-setup.el" "cedet-prj.el~" "cedet-prj.el" "cedet-1.1/" "cc-mode-setup.el" "buflist-setup.el" "bookmarks" "auto-save-list/" "auto-insert-settings.el" "auto-complete-setup.el" "auto-complete/" "ac-comphist.dat" "../" "./")
+
+ ("d:/Kuaipan/devtools/emacser/" (22342 54680 0 0) "excercise.el" ".emacs~" ".emacs.d/" ".emacs" "../" "./")
+
+ ("c:/Users/志杰/" (22342 48795 0 0) "「开始」菜单/" "_viminfo" "workspace/" "wc/" "Videos/" "Tracing/" "Templates/" "SkyDrive/" "setuptools-20.10.1.zip" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PUTTY.RND" "PrintHood/" "Pictures/" "path.txt" "OneDrive/" "ntuser.ini" "NTUSER.DAT{589e7499-d1cc-11e5-97be-d4dadce0a4f2}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{589e7499-d1cc-11e5-97be-d4dadce0a4f2}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{589e7499-d1cc-11e5-97be-d4dadce0a4f2}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Intel/" "httpproxy" "Favorites/" "Downloads/" "Documents/" "Desktop/" "debug.log" "core.19718" "Cookies/" "Contacts/" "CMB/" "Application Data/" "AppData/" "Adobe Flash Builder 4.6/" ".VirtualBox/" ".ssh/" ".smplayer/" ".PyCharm50/" ".PyCharm2016.1/" ".p2/" ".oracle_jre_usage/" ".gradle/" ".gitconfig" ".eclipse/" ".docker/" ".designer/" ".config/" ".bash_history" ".AndroidStudio1.2/" ".android/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,106 @@
+pwd
+ls
+cscope
+cscope --help
+where cscope
+pwd
+ls
+find
+where find
+find --help
+find /?
+find -h
+pwd
+ls
+cscope.exe -b ./
+cscope.exe -b
+cscope.exe -R
+cscope.exe --help
+cscope.exe -b 
+cd src/
+cscope.exe -b 
+cd ..
+ls
+bash
+find --help
+find /?
+ls
+cat source.txt 
+cscope.exe --help
+mv source.txt cscope.files
+cscope.exe -b
+ls
+cat cscope.files
+cat cscope.out 
+pwd
+cd
+pwd
+cd ../../..
+ls
+cd ~
+pwd
+ls
+la
+ls -a
+which ls
+cd .emacs.d/
+ls
+cd lisp/
+ls
+find /?
+which find
+find ./ -name em-ls.el
+pwd
+ls ../
+ls ../semanticdb/
+ls
+ls semanticdb/
+rm -rf semanticdb/
+ls
+ls emacs.old
+ls emacs
+ls emacs/srcs/
+ls
+auto-save-list           color                 debug-gdb               emacs-setup.el~   linum-setup.el        snippets              util.el                 
+cd ~/
+pwd
+ls
+cd .emacs.d/
+ls
+ls tags
+pwd
+ls ~/emacs.d
+ls
+mkdir tags
+cd
+pwd
+ls
+la
+ls -a
+cd .emacs.d/
+la
+ls -a
+ls tags/
+cat ede-projects.el 
+dir eshell/
+ls eshell/
+ls lisp/
+ls lisp/tags/
+rm -rf lisp/tags/
+ls lisp/
+ls lisp/
+pwd
+cd ..
+ls
+ls -a
+find ./ -name \*~
+ls
+man ls
+man pwd
+pwd
+ls
+cd ../..
+ls
+find
+cscope.exe -b
+ls
